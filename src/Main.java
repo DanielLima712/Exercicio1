@@ -8,9 +8,12 @@ public class Main {
         float nota1 = nota.nextFloat();
         System.out.println("Escreva sua segunda nota: ");
         float nota2 = nota.nextFloat();
+        System.out.println("Escreva sua terceira nota: ");
+        float nota3 = nota.nextFloat();
 
         float media = (nota1 + nota2) / 2;
 
         System.out.println("Nota 1: " + nota1 + " Nota 2: " + nota2 + " Media: " + media);
+
     }
 }
